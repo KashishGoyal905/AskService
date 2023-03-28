@@ -36,11 +36,14 @@ const Register = () => {
   };
 
   return (
+    <>
+    <image src=""/>
     <form className="register" onSubmit={register} method="POST">
       <h1>Register</h1>
       <input
         type="text"
-        name="userName"
+        name="userName
+        "
         value={user.userName}
         placeholder="Your Name"
         onChange={handleChange}
@@ -68,6 +71,7 @@ const Register = () => {
       />
       <button className="button">Register</button>
     </form>
+    </>
   );
 };
 export default Register;
