@@ -16,7 +16,7 @@ const Login = () =>{
     }
     return(
         <div className='login'>
-            {/* {console.log(user)} */}
+            {/* {console.log(user)} */} 
             <h1>Login</h1>
             <input type="text" name="email" value={user.email} onChange={handleChange} placeholder="Enter your Email"></input>
             <input type="password" name="password" value={user.password} onChange={handleChange}  placeholder="Enter your Password" ></input>

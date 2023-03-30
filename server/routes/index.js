@@ -24,13 +24,7 @@ router.post("/register", (req, res) => {
 
   res.send(user);
 
-  // user.save((err) => {
-  //   if (err) {
-  //     console.log(err);
-  //   } else {
-  //     res.send({ message: "Successfully Registered" });
-  //   }
-  // });
+  
 });
 
 module.exports = router;
