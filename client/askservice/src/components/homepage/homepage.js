@@ -1,6 +1,6 @@
 import React from "react";
-import Img from './homepage.jpg';
-
+//import Img from './homepage.jpg';
+import ImagesCarousel from "./ImagesCarousel";
 const Homepage = () => {
   return (
     <div>
@@ -31,7 +31,8 @@ const Homepage = () => {
           </ul>
         </div>
       </div>
-      <img src={Img} alt="image" className="w3-opacity w3-grayscale-max" id="home_image" />
+      {/* <img src={Img} alt="image" className="w3-opacity w3-grayscale-max" id="home_image" /> */}
+      <ImagesCarousel/>
     </div>
   );
 };
